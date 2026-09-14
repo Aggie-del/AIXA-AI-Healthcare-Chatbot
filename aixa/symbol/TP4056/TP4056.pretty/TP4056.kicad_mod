@@ -1,0 +1,214 @@
+(footprint "TP4056"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "TP4056"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a3fa0ecd-d4ac-4303-a8a9-5845d2d704a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TP4056"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7020c6d9-7ee9-4261-a2eb-85118dd98408")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3b55ab8-4c1b-4bbc-b4ec-29137ba0edd5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f711d365-286c-43d0-ba62-775f2049dfce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start 0 0)
+		(end 18 27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "43433f62-f802-4af8-a893-5ebee60356c4")
+	)
+	(fp_text user "OUT-"
+		(at 1.5 23 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "64cc48df-c9a3-446e-bce5-534a13fd69da")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "-"
+		(at 2 4.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cd5d2738-f76f-4eb1-823c-3e0bd2ebc94c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "B-"
+		(at 6 23 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8ea5f372-49d9-47da-89cd-b3fcffdd4ea5")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "B+"
+		(at 10.5 23 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "aaa4f7f1-10d9-46dc-86ef-77c3a2720dab")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "OUT+"
+		(at 14.5 23 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9f0bf078-f9cf-45cc-8756-2e2df8937b13")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+"
+		(at 15 4.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b88fe87d-ff27-4e1e-b6d2-32251b79880e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "TP4056"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9dce95ea-42bf-4d77-b626-5ca4cc56f60c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 2.5 2.5)
+		(size 2 2)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "41c232fc-c0f3-43a4-b896-c8d0dc295904")
+	)
+	(pad "2" thru_hole roundrect
+		(at 15.5 2.5)
+		(size 2 2)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "d4bbb2c6-aac8-4ba7-ae8a-6de8a8d1e695")
+	)
+	(pad "3" thru_hole roundrect
+		(at 15.5 24.5)
+		(size 2 2)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "673f997c-ec12-4fe1-bf75-9bd141d39023")
+	)
+	(pad "4" thru_hole roundrect
+		(at 11 24.5)
+		(size 2 2)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "31413eb7-d4e8-4522-a8bc-d6bd6fdeca19")
+	)
+	(pad "5" thru_hole roundrect
+		(at 6.5 24.5)
+		(size 2 2)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "8ffc4cd3-6f3c-4eb2-8a67-052f275f6306")
+	)
+	(pad "6" thru_hole roundrect
+		(at 2.5 24.5)
+		(size 2 2)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "e3865b3c-3a79-4260-a3df-42d9f7399532")
+	)
+	(embedded_fonts no)
+)
