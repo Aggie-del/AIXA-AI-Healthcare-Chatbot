@@ -7717,7 +7717,7 @@
 		(uuid "3dd812a3-231a-416e-b5f8-bbd74f3cb218")
 	)
 	(label "SCK"
-		(at 106.68 88.9 0)
+		(at 107.95 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)

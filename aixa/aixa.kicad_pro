@@ -661,7 +661,7 @@
         "uuid": "28d2e7a6-2310-4cd6-ae11-abf24448081c"
       }
     ],
-    "used_designators": "TP1,U1,BT1,LS1,MP1,ESP1,M1",
+    "used_designators": "TP1,U1,LS1,MP1,M1,BT1,ESP1",
     "variants": []
   },
   "sheets": [

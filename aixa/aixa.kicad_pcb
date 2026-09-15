@@ -2307,6 +2307,14 @@
 		(layer "Edge.Cuts")
 		(uuid "25087935-5a2e-4029-9c9a-f475fc7d6d67")
 	)
+	(segment
+		(start 177 92)
+		(end 177 90)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/BCLK")
+		(uuid "91c66f3d-8669-403c-8084-198997f9c2cb")
+	)
 	(zone
 		(net "GND")
 		(layers "F.Cu" "B.Cu")
