@@ -1,0 +1,25 @@
+PostgreSQL Driver
+set up the  venv
+pip install psycopg2-binary
+
+data base installation
+
+sudo apt update
+sudo apt install postgresql postgresql-contrib libpq-dev
+ 
+#sudo systemctl start postgresql
+#sudo systemctl enable postgresql
+
+Log in as the default Postgres user:
+#sudo -u postgres psql
+
+Create your database, user, and grant privileges:
+minimum viable configuration
+
+#CREATE DATABASE dbse_name;
+#CREATE USER user WITH PASSWORD 'password';
+#GRANT ALL PRIVILEGES ON DATABASE dbse TO user;
+#ALTER DATABASE aixpa OWNER TO aixpart;
+
+#\q
+
