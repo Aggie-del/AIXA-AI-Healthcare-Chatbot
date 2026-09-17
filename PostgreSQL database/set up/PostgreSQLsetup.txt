@@ -17,7 +17,7 @@ Create your database, user, and grant privileges:
 minimum viable configuration
 
 #CREATE DATABASE dbse_name;
-#CREATE USER user WITH PASSWORD 'password';
+#CREATE USER testdatabase WITH PASSWORD 'password';
 #GRANT ALL PRIVILEGES ON DATABASE dbse TO user;
 #ALTER DATABASE aixpa OWNER TO aixpart;
 
