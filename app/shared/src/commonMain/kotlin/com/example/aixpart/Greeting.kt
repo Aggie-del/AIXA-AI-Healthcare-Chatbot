@@ -1,6 +1,6 @@
 package com.example.aixpart
 
-class   Greeting {
+class Greeting {
     private val platform = getPlatform()
 
     fun greet(): String {

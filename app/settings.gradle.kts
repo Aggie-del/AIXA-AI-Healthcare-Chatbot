@@ -1,4 +1,4 @@
-rootProject.name = "AIXPART"
+rootProject.name = "Aixpart"
 
 pluginManagement {
     repositories {
